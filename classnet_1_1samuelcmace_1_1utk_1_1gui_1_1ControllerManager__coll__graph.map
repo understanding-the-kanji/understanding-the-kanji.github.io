@@ -1,0 +1,4 @@
+<map id="net.samuelcmace.utk.gui.ControllerManager" name="net.samuelcmace.utk.gui.ControllerManager">
+<area shape="rect" id="node1" title="Abstract class to control the switching behavior of the FXML views and their corresponding controller..." alt="" coords="5,108,177,221"/>
+<area shape="rect" id="node2" title=" " alt="" coords="60,5,123,45"/>
+</map>
