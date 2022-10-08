@@ -25,31 +25,29 @@
 var NAVTREE =
 [
   [ "Understanding the Kanji", "index.html", [
-    [ "Project Overview", "index.html", [
-      [ "Licensing", "index.html#autotoc_md1", [
-        [ "Copyright Disclaimer", "index.html#autotoc_md2", null ],
-        [ "Other Licensing Information", "index.html#autotoc_md3", null ]
+    [ "Licensing", "index.html#autotoc_md1", [
+      [ "Copyright Disclaimer", "index.html#autotoc_md2", null ],
+      [ "Other Licensing Information", "index.html#autotoc_md3", null ]
+    ] ],
+    [ "How to Use This Program", "index.html#autotoc_md4", null ],
+    [ "How This Program Works", "index.html#autotoc_md5", [
+      [ "Kanji Lookup Tool", "index.html#autotoc_md6", null ]
+    ] ],
+    [ "Build Instructions", "index.html#autotoc_md7", [
+      [ "Dependency Installation", "index.html#autotoc_md8", [
+        [ "Windows (Chocolatey)", "index.html#autotoc_md9", null ],
+        [ "Ubuntu (apt)", "index.html#autotoc_md10", null ]
       ] ],
-      [ "How to Use This Program", "index.html#autotoc_md4", null ],
-      [ "How This Program Works", "index.html#autotoc_md5", [
-        [ "Kanji Lookup Tool", "index.html#autotoc_md6", null ]
+      [ "Running the Project", "index.html#autotoc_md11", [
+        [ "Windows", "index.html#autotoc_md12", null ],
+        [ "Ubuntu (or any other Linux platform)", "index.html#autotoc_md13", null ]
       ] ]
     ] ],
-    [ "Build Instructions", "md__github_workspace_README.html", [
-      [ "Dependency Installation", "md__github_workspace_README.html#autotoc_md8", [
-        [ "Windows (Chocolatey)", "md__github_workspace_README.html#autotoc_md9", null ],
-        [ "Ubuntu (apt)", "md__github_workspace_README.html#autotoc_md10", null ]
+    [ "Future Plans for the Project", "index.html#autotoc_md14", [
+      [ "In-App Spaced Repetition Flashcard System", "index.html#autotoc_md15", [
+        [ "Implementation", "index.html#autotoc_md16", null ]
       ] ],
-      [ "Running the Project", "md__github_workspace_README.html#autotoc_md11", [
-        [ "Windows", "md__github_workspace_README.html#autotoc_md12", null ],
-        [ "Ubuntu (or any other Linux platform)", "md__github_workspace_README.html#autotoc_md13", null ]
-      ] ]
-    ] ],
-    [ "Future Plans for the Project", "md__github_workspace_docs_future_plans.html", [
-      [ "In-App Spaced Repetition Flashcard System", "md__github_workspace_docs_future_plans.html#autotoc_md15", [
-        [ "Implementation", "md__github_workspace_docs_future_plans.html#autotoc_md16", null ]
-      ] ],
-      [ "Anki Deck Generator", "md__github_workspace_docs_future_plans.html#autotoc_md17", null ]
+      [ "Anki Deck Generator", "index.html#autotoc_md17", null ]
     ] ],
     [ "Classes", "annotated.html", [
       [ "Class List", "annotated.html", "annotated_dup" ],

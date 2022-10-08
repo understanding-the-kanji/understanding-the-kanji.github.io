@@ -1,8 +1,7 @@
 var searchData=
 [
-  ['kanjieditorconnection_0',['kanjiEditorConnection',['../classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DBConnectionPool.html#a4ff4993d7dfb9dd64b63c9b04db12297',1,'net::samuelcmace::utk::logic::DBConnectionPool']]],
-  ['kanjieditorcontroller_1',['KanjiEditorController',['../classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiEditorController.html#a9717c45fc5915632cd5d164a2fbcd139',1,'net.samuelcmace.utk.gui.controller.KanjiEditorController.KanjiEditorController()'],['../classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiEditorController.html',1,'net.samuelcmace.utk.gui.controller.KanjiEditorController']]],
-  ['kanjisearchconnection_2',['kanjiSearchConnection',['../classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DBConnectionPool.html#a3d93866085b144d8cc7dc7f42a530266',1,'net::samuelcmace::utk::logic::DBConnectionPool']]],
-  ['kanjisearchcontroller_3',['KanjiSearchController',['../classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiSearchController.html#ae0599e729ca2f2282edaa9333669e737',1,'net.samuelcmace.utk.gui.controller.KanjiSearchController.KanjiSearchController()'],['../classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiSearchController.html',1,'net.samuelcmace.utk.gui.controller.KanjiSearchController']]],
-  ['kanjiviewcontroller_4',['KanjiViewController',['../classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#a17d45d19d21e876f5184e9bd893c3896',1,'net.samuelcmace.utk.gui.controller.KanjiViewController.KanjiViewController()'],['../classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html',1,'net.samuelcmace.utk.gui.controller.KanjiViewController']]]
+  ['loadcontentsfromdisk_0',['loadContentsFromDisk',['../classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiEditorController.html#a0769437c3a44497f6bbba32a0a49bb3a',1,'net::samuelcmace::utk::gui::controller::KanjiEditorController']]],
+  ['loadcontroller_1',['LoadController',['../classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1LoadController.html',1,'net::samuelcmace::utk::gui::controller']]],
+  ['logger_2',['Logger',['../classnet_1_1samuelcmace_1_1utk_1_1logic_1_1Logger.html',1,'net::samuelcmace::utk::logic']]],
+  ['logmessage_3',['logMessage',['../classnet_1_1samuelcmace_1_1utk_1_1logic_1_1Logger.html#a009b7abfa1e6b6d09ab1b1f695a1b749',1,'net::samuelcmace::utk::logic::Logger']]]
 ];

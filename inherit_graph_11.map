@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseConnection.html" title="Defines an object wrapper for a SQLite database connection." alt="" coords="5,5,184,45"/>
+<area shape="rect" id="node1" href="$classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseConnection.html" title="Defines an object wrapper for a SQLite database connection." alt="" coords="5,37,184,77"/>
+<area shape="rect" id="node2" href="$classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseReadConnection.html" title="The DatabaseConnection child class associated with reading data from the database." alt="" coords="232,5,411,45"/>
+<area shape="rect" id="node3" href="$classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseWriteConnection.html" title="The DatabaseConnection child class associated with writing data to the database." alt="" coords="232,69,411,109"/>
 </map>

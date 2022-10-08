@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['build_20instructions_0',['Build Instructions',['../md__github_workspace_README.html',1,'']]]
+  ['understanding_20the_20kanji_0',['Understanding the Kanji',['../index.html',1,'']]]
 ];

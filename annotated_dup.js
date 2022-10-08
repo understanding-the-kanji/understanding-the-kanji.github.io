@@ -19,6 +19,8 @@ var annotated_dup =
           [ "logic", null, [
             [ "AppStoragePaths", "classnet_1_1samuelcmace_1_1utk_1_1logic_1_1AppStoragePaths.html", "classnet_1_1samuelcmace_1_1utk_1_1logic_1_1AppStoragePaths" ],
             [ "DatabaseConnection", "classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseConnection.html", "classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseConnection" ],
+            [ "DatabaseReadConnection", "classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseReadConnection.html", "classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseReadConnection" ],
+            [ "DatabaseWriteConnection", "classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseWriteConnection.html", "classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseWriteConnection" ],
             [ "DBConnectionPool", "classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DBConnectionPool.html", "classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DBConnectionPool" ],
             [ "Logger", "classnet_1_1samuelcmace_1_1utk_1_1logic_1_1Logger.html", "classnet_1_1samuelcmace_1_1utk_1_1logic_1_1Logger" ]
           ] ],

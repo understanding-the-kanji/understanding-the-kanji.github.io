@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.5"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Understanding the Kanji: Project Overview</title>
+<title>Understanding the Kanji: Understanding the Kanji</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -27,7 +27,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Understanding the Kanji<span id="projectnumber">&#160;0.1.1-dev</span>
+   <div id="projectname">Understanding the Kanji<span id="projectnumber">&#160;0.1.1</span>
    </div>
    <div id="projectbrief">A tool for understanding the meaning behind the Japanese Kanji characters.</div>
   </td>
@@ -92,10 +92,11 @@ $(document).ready(function(){initNavTree('index.html',''); initResizable(); });
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">Project Overview </div></div>
+  <div class="headertitle"><div class="title">Understanding the Kanji </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p ><a class="anchor" id="md__github_workspace_docs_project_overview"></a> This tool is meant to aid the learner of the Japanese language in understanding the meaning behind the Kanji characters. Many students of Japanese feel as there are too many Kanji characters to remember. However, it turns out that the Kanji characters (based on the Chinese writing system), can be broken down into smaller, more-memorable "radicals" (as they are called). By piecing these radicals together and coming up with stories to go along with these radicals, one can drastically reduce the time and effort required to master the Kanji.</p>
+<div class="textblock"><p ><a class="anchor" id="md__github_workspace_README"></a> <a href="https://github.com/samuelcmace/understanding-the-kanji/actions/workflows/gradle.yml"><img src="https://github.com/samuelcmace/understanding-the-kanji/actions/workflows/gradle.yml/badge.svg" alt="Gradle" style="pointer-events: none;" class="inline"/></a> <a href="https://github.com/samuelcmace/understanding-the-kanji/actions/workflows/doxygen.yml"><img src="https://github.com/samuelcmace/understanding-the-kanji/actions/workflows/doxygen.yml/badge.svg?branch=main" alt="Doxygen" style="pointer-events: none;" class="inline"/></a></p>
+<p >This tool is meant to aid the learner of the Japanese language in understanding the meaning behind the Kanji characters. Many students of Japanese feel as there are too many Kanji characters to remember. However, it turns out that the Kanji characters (based on the Chinese writing system), can be broken down into smaller, more-memorable "radicals" (as they are called). By piecing these radicals together and coming up with stories to go along with these radicals, one can drastically reduce the time and effort required to master the Kanji.</p>
 <h1><a class="anchor" id="autotoc_md1"></a>
 Licensing</h1>
 <h2><a class="anchor" id="autotoc_md2"></a>
@@ -118,7 +119,48 @@ Kanji Lookup Tool</h2>
 <li>Kanji Character Unicode</li>
 <li>RTK (Heisig) Keyword</li>
 </ol>
-<p >The Kanji lookup page allows the user to search based on one of the aforementioned criteria. Since Heisig keeps his keywords unique (only one keyword per kanji character), the keywords are strongly-typed and need to match the material taught in Heisig's works. </p>
+<p >The Kanji lookup page allows the user to search based on one of the aforementioned criteria. Since Heisig keeps his keywords unique (only one keyword per kanji character), the keywords are strongly-typed and need to match the material taught in Heisig's works.</p>
+<h1><a class="anchor" id="autotoc_md7"></a>
+Build Instructions</h1>
+<h2><a class="anchor" id="autotoc_md8"></a>
+Dependency Installation</h2>
+<p >To build this program, you will need to have OpenJDK17 installed on your machine. This program may work well with other versions of Java, but this app is only officially supported on the OpenJDK17 platform.</p>
+<h3><a class="anchor" id="autotoc_md9"></a>
+Windows (Chocolatey)</h3>
+<p >To install OpenJDK17 using the <a href="https://chocolatey.org/">Chocolatey package manager</a>, you can type in the following in a Powershell session running as Administrator:</p>
+<div class="fragment"><div class="line">choco install openjdk17 -y</div>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md10"></a>
+Ubuntu (apt)</h3>
+<p >If you are running Ubuntu, you can type in the following on the terminal:</p>
+<div class="fragment"><div class="line">sudo apt install openjdk-17-jdk openjdk-17-jre -y</div>
+</div><!-- fragment --><h2><a class="anchor" id="autotoc_md11"></a>
+Running the Project</h2>
+<h3><a class="anchor" id="autotoc_md12"></a>
+Windows</h3>
+<p >If you are on Windows, you can type in the following in the command prompt:</p>
+<div class="fragment"><div class="line">.\gradlew.bat run</div>
+</div><!-- fragment --><h3><a class="anchor" id="autotoc_md13"></a>
+Ubuntu (or any other Linux platform)</h3>
+<p >If you are on Ubuntu (or any other Linux distribution for that matter), you can type in the following in the terminal:</p>
+<div class="fragment"><div class="line">./gradlew run</div>
+</div><!-- fragment --><h1><a class="anchor" id="autotoc_md14"></a>
+Future Plans for the Project</h1>
+<h2><a class="anchor" id="autotoc_md15"></a>
+In-App Spaced Repetition Flashcard System</h2>
+<p >One idea to go forward with this project is to implement a spaced-repetition-based flashcard system that will quiz the user on select Kanji characters.</p>
+<h3><a class="anchor" id="autotoc_md16"></a>
+Implementation</h3>
+<p >Although the following explanation tries to be as concise and clear as possible, these notes are provided after watching <a href="https://www.youtube.com/watch?v=lz60qTP2Gx0">Matt vs Japan's YouTube Video</a>. He provides an explanation of the Anki/Spaced Repetition algorithm in a more easy and broken-down fashion.</p>
+<p >Spaced repetition flashcard systems are designed to quiz the end user on certain information in certain intervals that will make the information more-memorable. At a base level, each spaced repetition flashcard is in one of three categories:</p>
+<ol type="1">
+<li>New</li>
+<li>Learning</li>
+<li>Learned</li>
+</ol>
+<p >New cards are those that have not yet been shown. Learning cards are those that are in the process of being learned, but have not yet been mastered for any given day. Learned cards are those that have been mastered on a given day in the past, but need to be reviewed to increase one's retention rate.</p>
+<h2><a class="anchor" id="autotoc_md17"></a>
+Anki Deck Generator</h2>
+<p >Another, perhaps more-flexible and more-useful, tool would be to create an anki deck generator that would create decks based on the SQLite database. Since Anki already has a built-in feature set of its own, this tool would merely serve as a lookup tool, while Anki would implement the flashcard system. </p>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->
 </div><!-- doc-content -->

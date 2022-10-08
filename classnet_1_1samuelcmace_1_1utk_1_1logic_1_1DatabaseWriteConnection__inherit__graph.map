@@ -1,0 +1,4 @@
+<map id="net.samuelcmace.utk.logic.DatabaseWriteConnection" name="net.samuelcmace.utk.logic.DatabaseWriteConnection">
+<area shape="rect" id="node1" title="The DatabaseConnection child class associated with writing data to the database." alt="" coords="9,196,208,353"/>
+<area shape="rect" id="node2" href="$classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseConnection.html" title="Defines an object wrapper for a SQLite database connection." alt="" coords="5,5,212,148"/>
+</map>
