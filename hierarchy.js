@@ -2,6 +2,7 @@ var hierarchy =
 [
     [ "net.samuelcmace.utk.gui.controller.AboutController", "classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1AboutController.html", null ],
     [ "net.samuelcmace.utk.gui.controller.AboutLicensesController", "classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1AboutLicensesController.html", null ],
+    [ "net.samuelcmace.utk.ApplicationLauncher", "classnet_1_1samuelcmace_1_1utk_1_1ApplicationLauncher.html", null ],
     [ "net.samuelcmace.utk.logic.AppStoragePaths", "classnet_1_1samuelcmace_1_1utk_1_1logic_1_1AppStoragePaths.html", null ],
     [ "net.samuelcmace.utk.gui.ControllerManager", "classnet_1_1samuelcmace_1_1utk_1_1gui_1_1ControllerManager.html", null ],
     [ "net.samuelcmace.utk.gui.Controllers", "enumnet_1_1samuelcmace_1_1utk_1_1gui_1_1Controllers.html", null ],

@@ -24,6 +24,7 @@ var annotated_dup =
             [ "DBConnectionPool", "classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DBConnectionPool.html", "classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DBConnectionPool" ],
             [ "Logger", "classnet_1_1samuelcmace_1_1utk_1_1logic_1_1Logger.html", "classnet_1_1samuelcmace_1_1utk_1_1logic_1_1Logger" ]
           ] ],
+          [ "ApplicationLauncher", "classnet_1_1samuelcmace_1_1utk_1_1ApplicationLauncher.html", "classnet_1_1samuelcmace_1_1utk_1_1ApplicationLauncher" ],
           [ "Main", "classnet_1_1samuelcmace_1_1utk_1_1Main.html", "classnet_1_1samuelcmace_1_1utk_1_1Main" ]
         ] ]
       ] ]
