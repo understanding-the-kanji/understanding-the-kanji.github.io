@@ -63,6 +63,7 @@ var NAVTREEINDEX0 =
 "classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#a4586382af6724cfae2a4c64ee7ef7a36":[5,0,0,0,0,0,0,4,13],
 "classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#a5216659ec5a519e786972df65de1a551":[5,0,0,0,0,0,0,4,5],
 "classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#a5a0bffae2e95fc43e1204db68667520b":[5,0,0,0,0,0,0,4,4],
+"classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#a6d1ebeeec4c89da28945f7716251fd7a":[5,0,0,0,0,0,0,4,14],
 "classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#a75a0a9e0331e46a32a92bf25f597d8e6":[5,0,0,0,0,0,0,4,9],
 "classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#a9531e5873b911948c7d2578ce500a4b5":[5,0,0,0,0,0,0,4,11],
 "classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#a9f6aba35c636d47c0a39447d45ed7442":[5,0,0,0,0,0,0,4,12],

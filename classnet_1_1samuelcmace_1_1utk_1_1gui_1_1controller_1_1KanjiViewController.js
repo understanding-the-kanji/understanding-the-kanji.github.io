@@ -13,5 +13,6 @@ var classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController =
     [ "cardKunReadingContents", "classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#af366766b63c7b9fa60cd7c25f2bf766a", null ],
     [ "cardNoteContents", "classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#a9531e5873b911948c7d2578ce500a4b5", null ],
     [ "cardOnReadingContents", "classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#a9f6aba35c636d47c0a39447d45ed7442", null ],
-    [ "dbConnectionPool", "classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#a4586382af6724cfae2a4c64ee7ef7a36", null ]
+    [ "dbConnectionPool", "classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#a4586382af6724cfae2a4c64ee7ef7a36", null ],
+    [ "editNoteButton", "classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#a6d1ebeeec4c89da28945f7716251fd7a", null ]
 ];
