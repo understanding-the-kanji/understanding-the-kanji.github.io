@@ -27,7 +27,7 @@
  <tr id="projectrow">
   <td id="projectlogo"><img alt="Logo" src="favicon.ico"/></td>
   <td id="projectalign">
-   <div id="projectname">Understanding the Kanji<span id="projectnumber">&#160;0.1.3</span>
+   <div id="projectname">Understanding the Kanji<span id="projectnumber">&#160;0.1.4</span>
    </div>
    <div id="projectbrief">A tool for understanding the meaning behind the Japanese Kanji characters.</div>
   </td>
@@ -95,6 +95,7 @@ $(document).ready(function(){initNavTree('classnet_1_1samuelcmace_1_1utk_1_1gui_
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="#pub-attribs">Public Attributes</a> &#124;
+<a href="#pri-methods">Private Member Functions</a> &#124;
 <a href="#pri-attribs">Private Attributes</a> &#124;
 <a href="classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController-members.html">List of all members</a>  </div>
   <div class="headertitle"><div class="title">net.samuelcmace.utk.gui.controller.KanjiViewController Class Reference</div></div>
@@ -108,17 +109,18 @@ Collaboration diagram for net.samuelcmace.utk.gui.controller.KanjiViewController
 <div class="dyncontent">
 <div class="center"><img src="classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController__coll__graph.png" border="0" usemap="#anet_8samuelcmace_8utk_8gui_8controller_8KanjiViewController_coll__map" alt="Collaboration graph"/></div>
 <map name="anet_8samuelcmace_8utk_8gui_8controller_8KanjiViewController_coll__map" id="anet_8samuelcmace_8utk_8gui_8controller_8KanjiViewController_coll__map">
-<area shape="rect" title="The controller that corresponds to the KanjiBrowser view." alt="" coords="177,929,405,1072"/>
+<area shape="rect" title="The controller that corresponds to the KanjiBrowser view." alt="" coords="257,871,497,1160"/>
 <area shape="rect" title=" " alt="" coords="5,658,64,698"/>
-<area shape="rect" title=" " alt="" coords="259,658,323,698"/>
-<area shape="rect" href="classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DBConnectionPool.html" title="Singleton to manage program&#45;wide database connections." alt="" coords="347,621,530,735"/>
-<area shape="rect" href="classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseReadConnection.html" title="The DatabaseConnection child class associated with reading data from the database." alt="" coords="445,299,643,559"/>
-<area shape="rect" href="classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseConnection.html" title="Defines an object wrapper for a SQLite database connection." alt="" coords="278,108,477,236"/>
-<area shape="rect" href="classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseWriteConnection.html" title="The DatabaseConnection child class associated with writing data to the database." alt="" coords="222,365,421,493"/>
-<area shape="rect" title=" " alt="" coords="332,5,423,45"/>
-<area shape="rect" title=" " alt="" coords="501,152,587,192"/>
-<area shape="rect" title=" " alt="" coords="643,152,725,192"/>
-<area shape="rect" title=" " alt="" coords="115,152,253,192"/>
+<area shape="rect" title=" " alt="" coords="232,658,312,698"/>
+<area shape="rect" title=" " alt="" coords="452,658,516,698"/>
+<area shape="rect" href="classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DBConnectionPool.html" title="Singleton to manage program&#45;wide database connections." alt="" coords="541,621,723,735"/>
+<area shape="rect" href="classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseReadConnection.html" title="The DatabaseConnection child class associated with reading data from the database." alt="" coords="638,299,837,559"/>
+<area shape="rect" href="classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseConnection.html" title="Defines an object wrapper for a SQLite database connection." alt="" coords="471,108,670,236"/>
+<area shape="rect" href="classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseWriteConnection.html" title="The DatabaseConnection child class associated with writing data to the database." alt="" coords="415,365,614,493"/>
+<area shape="rect" title=" " alt="" coords="525,5,616,45"/>
+<area shape="rect" title=" " alt="" coords="694,152,781,192"/>
+<area shape="rect" title=" " alt="" coords="836,152,919,192"/>
+<area shape="rect" title=" " alt="" coords="308,152,447,192"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -138,13 +140,22 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>initialize</b> ()</td
 <tr class="memitem:ac60a9a877da9f4bc36e77cf733369f8f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#ac60a9a877da9f4bc36e77cf733369f8f">onClick_editNoteButton</a> (ActionEvent actionEvent)</td></tr>
 <tr class="memdesc:ac60a9a877da9f4bc36e77cf733369f8f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the edit button is pressed.  <a href="classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#ac60a9a877da9f4bc36e77cf733369f8f">More...</a><br /></td></tr>
 <tr class="separator:ac60a9a877da9f4bc36e77cf733369f8f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae370a884d16dad0d03858437155a6250"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#ae370a884d16dad0d03858437155a6250">onClick_cardKanjiContents</a> (ActionEvent actionEvent)</td></tr>
+<tr class="memdesc:ae370a884d16dad0d03858437155a6250"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the Kanji Card Contents hyperlink is clicked.  <a href="classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#ae370a884d16dad0d03858437155a6250">More...</a><br /></td></tr>
+<tr class="separator:ae370a884d16dad0d03858437155a6250"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a34603e68834c2dcae58fa768c174f331"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#a34603e68834c2dcae58fa768c174f331">onClick_cardHeisigKeyword5thEditionContents</a> (ActionEvent actionEvent)</td></tr>
+<tr class="memdesc:a34603e68834c2dcae58fa768c174f331"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the Kanji 5th Edition Keyword hyperlink is clicked.  <a href="classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#a34603e68834c2dcae58fa768c174f331">More...</a><br /></td></tr>
+<tr class="separator:a34603e68834c2dcae58fa768c174f331"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ed6b8bcc167be6f175457f8afd87a8e"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#a6ed6b8bcc167be6f175457f8afd87a8e">onClick_cardHeisigKeyword6thEditionContents</a> (ActionEvent actionEvent)</td></tr>
+<tr class="memdesc:a6ed6b8bcc167be6f175457f8afd87a8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called when the Kanji 6th Edition Keyword hyperlink is clicked.  <a href="classnet_1_1samuelcmace_1_1utk_1_1gui_1_1controller_1_1KanjiViewController.html#a6ed6b8bcc167be6f175457f8afd87a8e">More...</a><br /></td></tr>
+<tr class="separator:a6ed6b8bcc167be6f175457f8afd87a8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pub-attribs" name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:aa76f914fb2a1486db631a0b156407113"><td class="memItemLeft" align="right" valign="top"><a id="aa76f914fb2a1486db631a0b156407113" name="aa76f914fb2a1486db631a0b156407113"></a>
-Label&#160;</td><td class="memItemRight" valign="bottom"><b>cardHeisigKeyword6thEditionContents</b></td></tr>
-<tr class="memdesc:aa76f914fb2a1486db631a0b156407113"><td class="mdescLeft">&#160;</td><td class="mdescRight">The FXML Label containing the contents of the Heisig 6th edition keyword. <br /></td></tr>
-<tr class="separator:aa76f914fb2a1486db631a0b156407113"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a430a020031590c874299b4e2b98eb571"><td class="memItemLeft" align="right" valign="top"><a id="a430a020031590c874299b4e2b98eb571" name="a430a020031590c874299b4e2b98eb571"></a>
+Hyperlink&#160;</td><td class="memItemRight" valign="bottom"><b>cardHeisigKeyword6thEditionContents</b></td></tr>
+<tr class="memdesc:a430a020031590c874299b4e2b98eb571"><td class="mdescLeft">&#160;</td><td class="mdescRight">The FXML Label containing the contents of the Heisig 6th edition keyword. <br /></td></tr>
+<tr class="separator:a430a020031590c874299b4e2b98eb571"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9f6aba35c636d47c0a39447d45ed7442"><td class="memItemLeft" align="right" valign="top"><a id="a9f6aba35c636d47c0a39447d45ed7442" name="a9f6aba35c636d47c0a39447d45ed7442"></a>
 Label&#160;</td><td class="memItemRight" valign="bottom"><b>cardOnReadingContents</b></td></tr>
 <tr class="memdesc:a9f6aba35c636d47c0a39447d45ed7442"><td class="mdescLeft">&#160;</td><td class="mdescRight">The FXML Label containing the Chinese (On) Reading of the Kanji character. <br /></td></tr>
@@ -162,16 +173,27 @@ Button&#160;</td><td class="memItemRight" valign="bottom"><b>editNoteButton</b><
 <tr class="memdesc:a6d1ebeeec4c89da28945f7716251fd7a"><td class="mdescLeft">&#160;</td><td class="mdescRight">The FXML Button that allows the user to edit the note. <br /></td></tr>
 <tr class="separator:a6d1ebeeec4c89da28945f7716251fd7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-methods" name="pri-methods"></a>
+Private Member Functions</h2></td></tr>
+<tr class="memitem:a56f1a8f89d6f6cc2822244d1f0156692"><td class="memItemLeft" align="right" valign="top"><a id="a56f1a8f89d6f6cc2822244d1f0156692" name="a56f1a8f89d6f6cc2822244d1f0156692"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>enableFields</b> ()</td></tr>
+<tr class="memdesc:a56f1a8f89d6f6cc2822244d1f0156692"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enables the lookup hyperlinks and edit note button upon the completion of a successful database query. <br /></td></tr>
+<tr class="separator:a56f1a8f89d6f6cc2822244d1f0156692"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa255b9ff0558dc87271734c469d4307b"><td class="memItemLeft" align="right" valign="top"><a id="aa255b9ff0558dc87271734c469d4307b" name="aa255b9ff0558dc87271734c469d4307b"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setupHyperlinkStyling</b> ()</td></tr>
+<tr class="memdesc:aa255b9ff0558dc87271734c469d4307b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets up the default styling for the hyperlinks. <br /></td></tr>
+<tr class="separator:aa255b9ff0558dc87271734c469d4307b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a id="pri-attribs" name="pri-attribs"></a>
 Private Attributes</h2></td></tr>
 <tr class="memitem:a21b46816b16b64320214bb847a9676dd"><td class="memItemLeft" align="right" valign="top"><a id="a21b46816b16b64320214bb847a9676dd" name="a21b46816b16b64320214bb847a9676dd"></a>
 Label&#160;</td><td class="memItemRight" valign="bottom"><b>cardIDContents</b></td></tr>
 <tr class="memdesc:a21b46816b16b64320214bb847a9676dd"><td class="mdescLeft">&#160;</td><td class="mdescRight">The FXML Label containing the contents of the card ID. <br /></td></tr>
 <tr class="separator:a21b46816b16b64320214bb847a9676dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a75a0a9e0331e46a32a92bf25f597d8e6"><td class="memItemLeft" align="right" valign="top"><a id="a75a0a9e0331e46a32a92bf25f597d8e6" name="a75a0a9e0331e46a32a92bf25f597d8e6"></a>
-Label&#160;</td><td class="memItemRight" valign="bottom"><b>cardKanjiContents</b></td></tr>
-<tr class="memdesc:a75a0a9e0331e46a32a92bf25f597d8e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">The FXML Label containing the contents of the card's Kanji character. <br /></td></tr>
-<tr class="separator:a75a0a9e0331e46a32a92bf25f597d8e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acf8d83fc8e0da62172184e4fee9b7e52"><td class="memItemLeft" align="right" valign="top"><a id="acf8d83fc8e0da62172184e4fee9b7e52" name="acf8d83fc8e0da62172184e4fee9b7e52"></a>
+Hyperlink&#160;</td><td class="memItemRight" valign="bottom"><b>cardKanjiContents</b></td></tr>
+<tr class="memdesc:acf8d83fc8e0da62172184e4fee9b7e52"><td class="mdescLeft">&#160;</td><td class="mdescRight">The FXML Label containing the contents of the card's Kanji character. <br /></td></tr>
+<tr class="separator:acf8d83fc8e0da62172184e4fee9b7e52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a0bffae2e95fc43e1204db68667520b"><td class="memItemLeft" align="right" valign="top"><a id="a5a0bffae2e95fc43e1204db68667520b" name="a5a0bffae2e95fc43e1204db68667520b"></a>
 Label&#160;</td><td class="memItemRight" valign="bottom"><b>cardHeisigIndex5thEditionContents</b></td></tr>
 <tr class="memdesc:a5a0bffae2e95fc43e1204db68667520b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The FXML Label containing the contents of the 5th edition Heisig index. <br /></td></tr>
@@ -180,10 +202,10 @@ Label&#160;</td><td class="memItemRight" valign="bottom"><b>cardHeisigIndex5thEd
 Label&#160;</td><td class="memItemRight" valign="bottom"><b>cardHeisigIndex6thEditionContents</b></td></tr>
 <tr class="memdesc:a5216659ec5a519e786972df65de1a551"><td class="mdescLeft">&#160;</td><td class="mdescRight">The FXML Label containing the contents of the 6th edition Heisig index. <br /></td></tr>
 <tr class="separator:a5216659ec5a519e786972df65de1a551"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a36477abc6f462375e1cf269d1d97c71c"><td class="memItemLeft" align="right" valign="top"><a id="a36477abc6f462375e1cf269d1d97c71c" name="a36477abc6f462375e1cf269d1d97c71c"></a>
-Label&#160;</td><td class="memItemRight" valign="bottom"><b>cardHeisigKeyword5thEditionContents</b></td></tr>
-<tr class="memdesc:a36477abc6f462375e1cf269d1d97c71c"><td class="mdescLeft">&#160;</td><td class="mdescRight">The FXML Label containing the contents of the 5th edition Heisig keyword. <br /></td></tr>
-<tr class="separator:a36477abc6f462375e1cf269d1d97c71c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab7cbb3053d46eb76e712a69aa66a022d"><td class="memItemLeft" align="right" valign="top"><a id="ab7cbb3053d46eb76e712a69aa66a022d" name="ab7cbb3053d46eb76e712a69aa66a022d"></a>
+Hyperlink&#160;</td><td class="memItemRight" valign="bottom"><b>cardHeisigKeyword5thEditionContents</b></td></tr>
+<tr class="memdesc:ab7cbb3053d46eb76e712a69aa66a022d"><td class="mdescLeft">&#160;</td><td class="mdescRight">The FXML Label containing the contents of the 5th edition Heisig keyword. <br /></td></tr>
+<tr class="separator:ab7cbb3053d46eb76e712a69aa66a022d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4586382af6724cfae2a4c64ee7ef7a36"><td class="memItemLeft" align="right" valign="top"><a id="a4586382af6724cfae2a4c64ee7ef7a36" name="a4586382af6724cfae2a4c64ee7ef7a36"></a>
 <a class="el" href="classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DBConnectionPool.html">DBConnectionPool</a>&#160;</td><td class="memItemRight" valign="bottom"><b>dbConnectionPool</b></td></tr>
 <tr class="memdesc:a4586382af6724cfae2a4c64ee7ef7a36"><td class="mdescLeft">&#160;</td><td class="mdescRight">The DBConnectionPool singleton instance associated with KanjiBrowserController. <br /></td></tr>
@@ -192,6 +214,87 @@ Label&#160;</td><td class="memItemRight" valign="bottom"><b>cardHeisigKeyword5th
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p >The controller that corresponds to the KanjiBrowser view. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
+<a id="a34603e68834c2dcae58fa768c174f331" name="a34603e68834c2dcae58fa768c174f331"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a34603e68834c2dcae58fa768c174f331">&#9670;&#160;</a></span>onClick_cardHeisigKeyword5thEditionContents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void net.samuelcmace.utk.gui.controller.KanjiViewController.onClick_cardHeisigKeyword5thEditionContents </td>
+          <td>(</td>
+          <td class="paramtype">ActionEvent&#160;</td>
+          <td class="paramname"><em>actionEvent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called when the Kanji 5th Edition Keyword hyperlink is clicked. </p>
+<p >Opens a new browser window to the Merriam-Webster's Dictionary with the keyword.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">actionEvent</td><td>The default arguments passed to the event. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a6ed6b8bcc167be6f175457f8afd87a8e" name="a6ed6b8bcc167be6f175457f8afd87a8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ed6b8bcc167be6f175457f8afd87a8e">&#9670;&#160;</a></span>onClick_cardHeisigKeyword6thEditionContents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void net.samuelcmace.utk.gui.controller.KanjiViewController.onClick_cardHeisigKeyword6thEditionContents </td>
+          <td>(</td>
+          <td class="paramtype">ActionEvent&#160;</td>
+          <td class="paramname"><em>actionEvent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called when the Kanji 6th Edition Keyword hyperlink is clicked. </p>
+<p >Opens a new browser window to the Merriam-Webster's Dictionary with the keyword.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">actionEvent</td><td>The default arguments passed to the event. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="ae370a884d16dad0d03858437155a6250" name="ae370a884d16dad0d03858437155a6250"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae370a884d16dad0d03858437155a6250">&#9670;&#160;</a></span>onClick_cardKanjiContents()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void net.samuelcmace.utk.gui.controller.KanjiViewController.onClick_cardKanjiContents </td>
+          <td>(</td>
+          <td class="paramtype">ActionEvent&#160;</td>
+          <td class="paramname"><em>actionEvent</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Called when the Kanji Card Contents hyperlink is clicked. </p>
+<p >Opens a new browser window to the JapanDict Kanji Lookup tool.</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">actionEvent</td><td>The default arguments passed to the event. </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <a id="ac60a9a877da9f4bc36e77cf733369f8f" name="ac60a9a877da9f4bc36e77cf733369f8f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac60a9a877da9f4bc36e77cf733369f8f">&#9670;&#160;</a></span>onClick_editNoteButton()</h2>
 
