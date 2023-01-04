@@ -1,11 +1,11 @@
 <map id="net.samuelcmace.utk.logic.DBConnectionPool" name="net.samuelcmace.utk.logic.DBConnectionPool">
-<area shape="rect" id="node1" title="Singleton to manage program&#45;wide database connections." alt="" coords="266,797,449,911"/>
-<area shape="rect" id="node2" href="$classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DBConnectionPool.html" title="Singleton to manage program&#45;wide database connections." alt="" coords="266,621,449,735"/>
-<area shape="rect" id="node3" href="$classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseReadConnection.html" title="The DatabaseConnection child class associated with reading data from the database." alt="" coords="335,299,534,559"/>
-<area shape="rect" id="node4" href="$classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseConnection.html" title="Defines an object wrapper for a SQLite database connection." alt="" coords="169,108,367,236"/>
-<area shape="rect" id="node8" href="$classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseWriteConnection.html" title="The DatabaseConnection child class associated with writing data to the database." alt="" coords="46,365,245,493"/>
-<area shape="rect" id="node5" title=" " alt="" coords="223,5,313,45"/>
-<area shape="rect" id="node6" title=" " alt="" coords="391,152,478,192"/>
-<area shape="rect" id="node7" title=" " alt="" coords="533,152,616,192"/>
-<area shape="rect" id="node9" title=" " alt="" coords="5,152,144,192"/>
+<area shape="rect" id="node1" title="Singleton to manage program&#45;wide database connections." alt="" coords="265,873,443,995"/>
+<area shape="rect" id="node2" href="$classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DBConnectionPool.html" title="Singleton to manage program&#45;wide database connections." alt="" coords="265,689,443,811"/>
+<area shape="rect" id="node3" href="$classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseReadConnection.html" title="The DatabaseConnection child class associated with reading data from the database." alt="" coords="329,344,528,627"/>
+<area shape="rect" id="node4" href="$classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseConnection.html" title="Defines an object wrapper for a SQLite database connection." alt="" coords="164,145,363,281"/>
+<area shape="rect" id="node8" href="$classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseWriteConnection.html" title="The DatabaseConnection child class associated with writing data to the database." alt="" coords="43,410,241,561"/>
+<area shape="rect" id="node5" title=" " alt="" coords="220,5,307,83"/>
+<area shape="rect" id="node6" title=" " alt="" coords="387,175,470,252"/>
+<area shape="rect" id="node7" title=" " alt="" coords="529,175,608,252"/>
+<area shape="rect" id="node9" title=" " alt="" coords="5,175,140,252"/>
 </map>

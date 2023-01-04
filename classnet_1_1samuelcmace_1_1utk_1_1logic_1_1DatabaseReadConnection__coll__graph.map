@@ -1,7 +1,7 @@
 <map id="net.samuelcmace.utk.logic.DatabaseReadConnection" name="net.samuelcmace.utk.logic.DatabaseReadConnection">
-<area shape="rect" id="node1" title="The DatabaseConnection child class associated with reading data from the database." alt="" coords="172,299,371,559"/>
-<area shape="rect" id="node2" href="$classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseConnection.html" title="Defines an object wrapper for a SQLite database connection." alt="" coords="5,108,204,236"/>
-<area shape="rect" id="node3" title=" " alt="" coords="59,5,150,45"/>
-<area shape="rect" id="node4" title=" " alt="" coords="228,152,315,192"/>
-<area shape="rect" id="node5" title=" " alt="" coords="370,152,453,192"/>
+<area shape="rect" id="node1" title="The DatabaseConnection child class associated with reading data from the database." alt="" coords="171,344,369,627"/>
+<area shape="rect" id="node2" href="$classnet_1_1samuelcmace_1_1utk_1_1logic_1_1DatabaseConnection.html" title="Defines an object wrapper for a SQLite database connection." alt="" coords="5,145,204,281"/>
+<area shape="rect" id="node3" title=" " alt="" coords="61,5,148,83"/>
+<area shape="rect" id="node4" title=" " alt="" coords="229,175,311,252"/>
+<area shape="rect" id="node5" title=" " alt="" coords="371,175,449,252"/>
 </map>
